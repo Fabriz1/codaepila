@@ -29,6 +29,7 @@ public class Pilaecoda {
                 for(int c=num-1 ; c>=0 ; c--){
                 in[c]=scan.nextInt();
                 }
+                array.add(num);
                 a.fila(num, in, array);
             break;
             
@@ -36,6 +37,7 @@ public class Pilaecoda {
                 for(int c=0 ; c<num ; c++){
                 in[c]=scan.nextInt();
                 }
+                array.add(num);
                 a.coda(num, in, array);
         }
     }
